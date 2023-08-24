@@ -15,7 +15,6 @@
         android:layout_centerHorizontal="true"
         android:layout_marginTop="30dp"
         android:layout_marginBottom="30dp"
-
         android:scaleType="centerCrop"
         android:src="@drawable/aguaviva" />
 
@@ -23,6 +22,9 @@
         android:id="@+id/edtUsuario"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_below="@+id/imgLogo"
+        android:layout_margin="20sp"
+
         android:hint="Insira o nome de usuário"
         android:inputType="textPersonName" />
 
