@@ -46,13 +46,16 @@ android:drawableEnd="@drawable/baseline_person"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@+id/edtSenha"
+        android:layout_margin="20dp"
         android:text="Entrar" />
 
     <Button
         android:id="@+id/btnSair"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/btnEntrar"
+        android:layout_below="@+id/edtSenha"
+        android:layout_margin="20dp"
+        android:layout_toRightOf="@+id/btnEntrar"
         android:text="Sair" />
 
 </RelativeLayout>
