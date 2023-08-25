@@ -33,7 +33,7 @@ android:drawableEnd="@drawable/baseline_person"
     <EditText
         android:layout_margin="20sp"
         android:padding="10sp"
-        android:drawableEnd="@drawable/"
+        android:drawableEnd="@drawable/baseline_lock"
         android:id="@+id/edtSenha"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
